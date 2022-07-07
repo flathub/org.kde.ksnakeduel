@@ -1,55 +1,55 @@
 {
-  "app-id": "org.kde.ksnakeduel",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "ksnakeduel",
-  "rename-icon": "ksnakeduel",
-  "finish-args": [
-    "--device=dri",
-    "--socket=pulseaudio",
-    "--share=ipc",
-    "--socket=wayland",
-    "--socket=fallback-x11"
-  ],
-  "modules": [
-    {
-      "name": "libkdegames",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "app-id": "org.kde.ksnakeduel",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "ksnakeduel",
+    "rename-icon": "ksnakeduel",
+    "finish-args": [
+        "--device=dri",
+        "--socket=pulseaudio",
+        "--share=ipc",
+        "--socket=wayland",
+        "--socket=fallback-x11"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkdegames-22.04.2.tar.xz",
-          "sha256": "c33af6c13540add132122b36b2faabc1f0beaf2c06d29e575f7789f1c5342911",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "ksnakeduel",
-      "buildsystem": "cmake-ninja",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/ksnakeduel-22.04.2.tar.xz",
-          "sha256": "2cb264568e9d38ce73548b0f55eddde1a4256cdeedcb029f5fb77d937c6cdca1",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/ksnakeduel-$version.tar.xz"
-          }
+            "name": "libkdegames",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdegames-22.04.3.tar.xz",
+                    "sha256": "f6af5b98c6f5a4061b5124d04e5cf0c2cc9e21df93824559153d5565d541f845",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
+                    }
+                }
+            ]
         },
         {
-          "type": "patch",
-          "path": "oars.patch"
+            "name": "ksnakeduel",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/ksnakeduel-22.04.2.tar.xz",
+                    "sha256": "2cb264568e9d38ce73548b0f55eddde1a4256cdeedcb029f5fb77d937c6cdca1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ksnakeduel-$version.tar.xz"
+                    }
+                },
+                {
+                    "type": "patch",
+                    "path": "oars.patch"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
