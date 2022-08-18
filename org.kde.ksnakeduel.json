@@ -44,10 +44,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/ksnakeduel-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "oars.patch"
                 }
             ]
         }
