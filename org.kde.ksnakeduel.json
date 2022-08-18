@@ -36,18 +36,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/ksnakeduel-22.04.3.tar.xz",
-                    "sha256": "eaebdf5959a301c6ace6de9e84f517d57c854ae662733e740bd75ba9a1082842",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/ksnakeduel-22.08.0.tar.xz",
+                    "sha256": "1b5f0cc260ac8a6c21a723004268356c189e35c7a29ea2bd80bee50664ee40ab",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/ksnakeduel-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "oars.patch"
                 }
             ]
         }
