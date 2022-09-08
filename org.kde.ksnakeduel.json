@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/ksnakeduel-22.08.0.tar.xz",
-                    "sha256": "1b5f0cc260ac8a6c21a723004268356c189e35c7a29ea2bd80bee50664ee40ab",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/ksnakeduel-22.08.1.tar.xz",
+                    "sha256": "3f637f4a5860667dbe6aedd14cc7066c3f4eea0575617a523769676d3bcc0e1f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
