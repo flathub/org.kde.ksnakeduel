@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.ksnakeduel",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "ksnakeduel",
     "rename-icon": "ksnakeduel",
@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/libkdegames-24.08.3.tar.xz",
-                    "sha256": "6bcb2e0c6737f9b8a946e9d0b974164fb05b4165632bb59743fb19e04dbf94ee",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/libkdegames-24.12.0.tar.xz",
+                    "sha256": "d919e8235b2507667d02e21b6871f556d87ab74eab6c0a5a65d313cccd688765",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ksnakeduel-24.08.3.tar.xz",
-                    "sha256": "f47a3523b12952f523e4c2e312ba21ddb1ade546cafe2f08b2000a6659d7dedb",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/ksnakeduel-24.12.0.tar.xz",
+                    "sha256": "a274f1bda9d9136a141d07a532a48b83da3c8a489ca74db797000fd0436b7188",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
