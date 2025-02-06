@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/libkdegames-24.12.1.tar.xz",
-                    "sha256": "7e845aa7cb64fef4823f3c49d59a03334313b54439d1825be2c2a5b60642fe78",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/libkdegames-24.12.2.tar.xz",
+                    "sha256": "b3129c537c44d8bbd3ad87c272044efa5c164cae1f56e8fd54a50e7a6c7773da",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.1/src/ksnakeduel-24.12.1.tar.xz",
-                    "sha256": "151e391cb1a5e18ae3781b6bb2482e1c31ef24a85329f05f81a82d13e7d8e9b1",
+                    "url": "https://download.kde.org/stable/release-service/24.12.2/src/ksnakeduel-24.12.2.tar.xz",
+                    "sha256": "0dc16f5ae2586e3d0b27457a62c4e1f4019a48ab2cbb6e3dd152fdb2c5ad8522",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
